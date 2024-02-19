@@ -1,0 +1,92 @@
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald" />
+
+<!DOCTYPE html>
+<html>
+
+<head>
+        <title> Registration </title>
+        
+        <style>
+
+        body
+        {
+            background-color: lightslategray;
+        }
+            
+        .form
+            {
+            background-color: white;
+            margin: auto;
+            height: 80%;
+            width: 15%;
+            border-radius: 10px;
+            padding: 10px;
+            font-family: 'Oswald';
+            }
+        button
+        {
+            background-color: green;
+            
+        }
+
+        .reset{
+            background-color: red;
+        }
+        
+        input
+        {
+            margin: 5px;
+        }
+        </style>
+    
+</head>
+
+<body>
+    <div class="form">
+    <h1 align="center"> Registration Form </h1>
+    
+    <br/>
+
+    
+    <form> 
+        First Name: <br> <input type = "text" name= "firstname" size="30" />
+        </br>
+        Last Name: <br> <input type= "text" name= "Lasttname" size="30"/> 
+        </br>
+        Nick Name: <br> <input type= "text" name= "Nickname" size="30"/>
+        <br>
+        Email: <br>  <input type= "text" name= "Email" size="30"/> 
+        </br>
+        Password: <br> <input type= "text" name= "Password" size="30"/> 
+        </br>
+        Date of Birth: <br> <input type="date" id="birthday" name="birthday" size="30">
+        </br>
+
+        Gender:
+        <input type="radio" name="Gender">
+        <label for="html">Male</label>
+        <input type="radio" name="Gender">
+        <label for="html">Female</label>
+        <input type="radio" name="Gender">
+        <label for="html">Other</label>
+        </br>
+
+        Mobile: <br> <input type="tel" name= "Mobile" size="30">
+        </br>
+
+        Address: <br>
+        <textarea name="description" cols= "34" rows ="10"> </textarea>
+        </br>
+
+    
+
+    <button class="button">Submit</button>
+    <button class="reset">Reset</button>
+</div>
+
+
+    
+    </form>
+</body>
+
+</html>
